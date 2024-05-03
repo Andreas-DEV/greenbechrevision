@@ -18,7 +18,7 @@
   import NavContainer from "flowbite-svelte/NavContainer.svelte";
 </script>
 
-<Navbar>
+<Navbar color="primary">
   <NavContainer class="flex justify-around">
     <NavBrand href="/">
       <img src={logoSort} class="w-[125px]" alt="Grønbech Revision Logo" />
